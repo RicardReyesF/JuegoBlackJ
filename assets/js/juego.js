@@ -20,3 +20,19 @@ const crearDeck = () => {
 }
 
 crearDeck();
+
+const pedirCarta = () => {
+    if (deck.length === 0) {
+        throw "La baraja esta vacia";
+    }
+    const carta = deck.pop();
+    console.log(carta);
+    return carta;
+}
+
+pedirCarta();
+
+
+const valorCarta = () => {
+
+}
