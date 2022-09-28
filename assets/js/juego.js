@@ -33,6 +33,9 @@ const pedirCarta = () => {
 pedirCarta();
 
 
-const valorCarta = () => {
-
+const valorCarta = (carta) => {
+    const valor = carta.substring(0,carta.length -1);
+    let punto = 0;
 }
+
+valorCarta("2D");
